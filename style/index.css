@@ -159,6 +159,7 @@ header {
 }
 
 .navi a {
+    display; flex;
     text-decoration: none;
     color: black;
 }
@@ -207,3 +208,43 @@ header {
     background: dodgerblue;
 }
 
+@media (max-width: 500px) {
+    * {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        max-width: 100%;
+    }
+    header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .navi {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+    .navi a {
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin-top: .4rem;
+        border: .1rem solid black;
+    }
+    .heroimg {
+        width: 100%;
+    }
+    .middle-content .boxes .box {
+        width: 25%;
+    }
+    .top-content .text-container {
+        width: 80%;
+    }
+    .logo {
+        margin-top: 1rem;
+    }
+}
