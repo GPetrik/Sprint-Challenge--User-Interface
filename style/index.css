@@ -144,3 +144,107 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header {
+    display: flex;
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+.navi {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.navi a {
+    display; flex;
+    text-decoration: none;
+    color: black;
+}
+
+.heroimg {
+    margin-bottom: 3%;
+}
+
+.container .middle-content .boxes .box:nth-child(1) {
+    background: teal;
+}
+
+.container .middle-content .boxes .box:nth-child(2) {
+    background: gold;
+}
+
+.container .middle-content .boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+
+.container .middle-content .boxes .box:nth-child(4) {
+    background: coral;
+}
+
+.container .middle-content .boxes .box:nth-child(5) {
+    background: crimson;
+}
+
+.container .middle-content .boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+
+.container .middle-content .boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+
+.container .middle-content .boxes .box:nth-child(8) {
+    background: hotpink;
+}
+
+.container .middle-content .boxes .box:nth-child(9) {
+    background: indigo;
+}
+
+.container .middle-content .boxes .box:nth-child(10) {
+    background: dodgerblue;
+}
+
+@media (max-width: 500px) {
+    * {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        max-width: 100%;
+    }
+    header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .navi {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+    .navi a {
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin-top: .4rem;
+        border: .1rem solid black;
+    }
+    .heroimg {
+        width: 100%;
+    }
+    .middle-content .boxes .box {
+        width: 25%;
+    }
+    .top-content .text-container {
+        width: 80%;
+    }
+    .logo {
+        margin-top: 1rem;
+    }
+}
