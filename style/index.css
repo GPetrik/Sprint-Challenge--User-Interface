@@ -166,3 +166,44 @@ header {
 .heroimg {
     margin-bottom: 3%;
 }
+
+.container .middle-content .boxes .box:nth-child(1) {
+    background: teal;
+}
+
+.container .middle-content .boxes .box:nth-child(2) {
+    background: gold;
+}
+
+.container .middle-content .boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+
+.container .middle-content .boxes .box:nth-child(4) {
+    background: coral;
+}
+
+.container .middle-content .boxes .box:nth-child(5) {
+    background: crimson;
+}
+
+.container .middle-content .boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+
+.container .middle-content .boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+
+.container .middle-content .boxes .box:nth-child(8) {
+    background: hotpink;
+}
+
+.container .middle-content .boxes .box:nth-child(9) {
+    background: indigo;
+}
+
+.container .middle-content .boxes .box:nth-child(10) {
+    background: dodgerblue;
+}
+
